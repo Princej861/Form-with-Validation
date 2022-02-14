@@ -17,8 +17,7 @@ function Table() {
   });
   
   const addRows = (data) => {
-    // const totalCustomers = customerData.length;
-    // data.id = totalCustomers + 1;
+   
     const updatedcustomerData = [...customerData];
     updatedcustomerData.push(data);
     setcustomerData(updatedcustomerData);
